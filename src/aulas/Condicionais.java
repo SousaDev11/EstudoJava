@@ -3,6 +3,7 @@ package aulas;
 public class Condicionais {
     static void main() {
 
+        //teste
         double salario = 2000.00;
 
         if (salario > 5000.00) {
