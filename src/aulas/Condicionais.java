@@ -3,12 +3,12 @@ package aulas;
 public class Condicionais {
     static void main() {
 
-        int salario = 2000;
+        double salario = 2000.00;
 
-        if (salario > 5000) {
+        if (salario > 5000.00) {
             System.out.println("Salario muito alto");
 
-        } else if (salario > 3000) {
+        } else if (salario > 3000.00) {
             System.out.println("Salario alto");
 
         }else {
