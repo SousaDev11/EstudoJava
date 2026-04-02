@@ -18,11 +18,13 @@ public class Praticando {
         System.out.println("Informe sua senha: ");
         senha = sc.nextInt();
 
-        if (nome != "Ricardo " && senha != 1234 ) {
+        if (!nome.equals("Ricardo") || senha != 1234)  {
             System.out.println("nome ou senha incorreto");
         } else {
             System.out.println("usuario encontrado");
         }
+        sc.close();
+
 
     }
 }
